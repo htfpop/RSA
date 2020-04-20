@@ -1,3 +1,12 @@
+/**
+ * Christopher K. Leung
+ * CS4600 - Cryptography and Information Security
+ * Project 2 - RSA Algorithm Implementation
+ * RSADecrypt.java - This program will be used to decrypt a message that was previously encrypted by RSA
+ *                   This program will utilize the BigInteger class to handle difficult exponentiation used
+ *                   for the RSA algorithm. This program requires 3 arguments to work (cipherText source path, decrypted
+ *                   message destination path, as well as the key file path).
+ */
 import java.io.IOException;
 import java.math.BigInteger;
 

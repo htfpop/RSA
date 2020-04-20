@@ -1,3 +1,12 @@
+/**
+ * Christopher K. Leung
+ * CS4600 - Cryptography and Information Security
+ * Project 2 - RSA Algorithm Implementation
+ * RSAEncrypt.java - This program will be utilized to encrypt a message. This program requires the plaintext message to be
+ *                   less than or equal to 128 bytes. This program takes 3 arguments (plain text source path, encrypted
+ *                   destination path, and key file path).
+ */
+
 import java.io.IOException;
 import java.math.BigInteger;
 
